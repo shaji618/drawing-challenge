@@ -1,0 +1,55 @@
+{
+  "name": "drawing-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@base-ui/react": "^1.7.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@eslint/js": "^10.0.1",
+    "@mui/icons-material": "^9.0.1",
+    "@mui/material": "^9.0.1",
+    "@types/node": "^20.19.41",
+    "@types/nspell": "^2.1.6",
+    "@types/react-color": "^3.0.13",
+    "@types/typo-js": "^1.2.2",
+    "@vitejs/plugin-react": "^6.0.2",
+    "dictionary-en-us": "^2.2.1",
+    "emojilib": "^4.0.3",
+    "eslint": "^10.4.1",
+    "node-emoji": "^2.2.0",
+    "node-fetch": "^3.3.2",
+    "nspell": "^2.1.5",
+    "react-color": "^2.19.3",
+    "react-confetti": "^6.4.0",
+    "react-sketch-canvas": "^8.0.0",
+    "typescript-eslint": "^8.60.1",
+    "typo-js": "^1.3.2",
+    "vite": "^8.0.16",
+    "vite-tsconfig-paths": "^6.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

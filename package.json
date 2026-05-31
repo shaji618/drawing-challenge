@@ -1,0 +1,29 @@
+{
+  "name": "drawing-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd client && npm run dev",
+    "backend": "cd server && npx tsx src/server",
+    "app": "concurrently \" npm run backend\" \"npm run frontend\"",
+    "lint": "npx eslint ."
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^10.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "eslint-plugin-prefer-arrow-functions": "^3.9.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.60.1"
+  }
+}
